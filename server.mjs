@@ -8,7 +8,7 @@ const app = express();
 const port = 3000;
 
 // Your API endpoint and token
-const apiUrl = 'https://europe-west2-g3casino.cloudfunctions.net/user/affiliate/referral-leaderboard';
+const apiUrl = 'https://europe-west2-g3casino.cloudfunctions.net/user/affiliate/referral-leaderboard/KDBWUMY';
 const apiToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ejY4NVBJTzU4dlQ4QnJEYnZJWiIsImlhdCI6MTczMjQ3NTgwMH0.LrvMTCaaB9Mv3KqiV9O7keEYf1eIQg8X6xj2ScL-fOg'; // Replace with your actual token
 
 // Enable CORS for all routes
