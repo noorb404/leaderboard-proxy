@@ -2,7 +2,6 @@
 import express from 'express';
 import fetch from 'node-fetch';
 import cors from 'cors';
-import cookieParser from 'cookie-parser';
 
 const app = express();
 const port = 3000;
@@ -10,7 +9,6 @@ const port = 3000;
 
 app.use(cors());
 
-app.use(cookieParser());
 app.use(express.json()); // optional for JSON payloads
 
 // --- Leaderboard endpoint ---
